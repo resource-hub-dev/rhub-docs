@@ -1,3 +1,9 @@
+ansible-core
+antsibull
 myst-parser
+openapi-schema-validator
+openapi-spec-validator
+prance[cli]
+sh
 sphinx
 sphinx-rtd-theme
