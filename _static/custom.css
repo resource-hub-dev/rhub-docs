@@ -2,3 +2,27 @@
 .wy-nav-content {
     max-width: initial !important;
 }
+
+#swagger-ui {
+    margin-bottom: 4em;
+}
+#swagger-ui .topbar,
+#swagger-ui .information-container hgroup,
+#swagger-ui .topbar .download-url-wrapper,
+#swagger-ui .scheme-container,
+#swagger-ui .auth-wrapper .btn,
+#swagger-ui .opblock-tag .expand-operation,
+#swagger-ui .opblock-body .try-out,
+#swagger-ui .opblock-body ul.tab,
+#swagger-ui .topbar-wrapper a.link span  {
+    display: none !important;
+}
+#swagger-ui .opblock-body pre code  {
+    font-size: 100%;
+    color: #fff;
+    background: transparent;
+    border: 0;
+}
+#swagger-ui .opblock-summary-control:focus {
+    outline: none;
+}

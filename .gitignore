@@ -1,1 +1,6 @@
 /_build/
+/_tmp/
+
+# Generated from code.
+/ansible/autodoc/
+/_static/openapi.json
