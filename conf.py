@@ -92,7 +92,7 @@ def hook_init(app):
         shutil.rmtree(rhub_api)
     sh.git.clone('https://github.com/resource-hub-dev/rhub-api.git', rhub_api,
                  branch='master', depth=1)
-    sh.prance.compile(rhub_api / 'src/openapi/openapi.yml', '_static/openapi.json')
+    sh.prance.compile(rhub_api / 'src/rhub/openapi/openapi.yml', '_static/openapi.json')
 
 
 def setup(app):
