@@ -1,9 +1,8 @@
 ansible-core
 antsibull
 myst-parser
-openapi-schema-validator
-openapi-spec-validator
-prance[cli]
 sh
 sphinx
 sphinx-rtd-theme
+
+-r https://raw.githubusercontent.com/resource-hub-dev/rhub-api/master/requirements.txt
