@@ -1,5 +1,5 @@
 ansible-core
-antsibull
+antsibull-docs ~= 1.0
 myst-parser
 sh
 sphinx
